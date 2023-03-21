@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Practica3-Skybox.unity
+    guid: 34f4969b12163504085a5ecebefc2468
+  - enabled: 1
+    path: Assets/Scenes/Practica3-Cilindro.unity
+    guid: 417813199d701ea4483cd1051045fffe
+  - enabled: 1
+    path: Assets/Scenes/Practica3-Esfera.unity
+    guid: e76aaf3dbe3ac244097cd321379f314f
+  - enabled: 1
     path: Assets/Scenes/Practica2.unity
     guid: add14f40a375bed4c8ba0618449ad3b3
   m_configObjects:
