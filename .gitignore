@@ -55,6 +55,12 @@ sysinfo.txt
 *.apk
 *.unitypackage
 
+# Big Files
+*.mp4
+
+#Vscode
+.vsconfig
+
 # Crashlytics generated file
 crashlytics-build.properties
 
