@@ -650,14 +650,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 993245614}
         m_TargetAssemblyTypeName: ButtonController, Assembly-CSharp
-        m_MethodName: EscenaP3Cilindro
-        m_Mode: 1
+        m_MethodName: nextScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Practica3-Cilindro
           m_BoolArgument: 0
         m_CallState: 1
 --- !u!114 &896542897
@@ -726,20 +726,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 959308593}
+  - {fileID: 8229290296775734915}
+  - {fileID: 1431745875}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!20 &959308592 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 8229290296925427122, guid: b381e559dcfacc6429e03c764da5d3c3, type: 3}
-  m_PrefabInstance: {fileID: 8229290296775734914}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &959308593 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8229290296925427123, guid: b381e559dcfacc6429e03c764da5d3c3, type: 3}
-  m_PrefabInstance: {fileID: 8229290296775734914}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &993245613
 GameObject:
   m_ObjectHideFlags: 0
@@ -769,6 +760,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfd50563f9f864240bc22bf2eb198dae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EscenaNombre: 
 --- !u!4 &993245615
 Transform:
   m_ObjectHideFlags: 0
@@ -988,7 +980,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 959308592}
+  m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -1007,17 +999,17 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1431745871}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 16.33}
+  m_LocalPosition: {x: 0, y: 0, z: 16.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 896542895}
-  m_Father: {fileID: 959308593}
-  m_RootOrder: 0
+  m_Father: {fileID: 907292808}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 207.7, y: 148.77998}
+  m_AnchoredPosition: {x: 207.7, y: 148.09999}
   m_SizeDelta: {x: 617, y: 376}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1691012276
@@ -1249,6 +1241,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 907292808}
     m_Modifications:
+    - target: {fileID: 4403617414762004249, guid: b381e559dcfacc6429e03c764da5d3c3, type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4403617414762004249, guid: b381e559dcfacc6429e03c764da5d3c3, type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4403617414762004249, guid: b381e559dcfacc6429e03c764da5d3c3, type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8229290296925427113, guid: b381e559dcfacc6429e03c764da5d3c3, type: 3}
       propertyPath: m_Name
       value: Main Camera
@@ -1299,3 +1303,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b381e559dcfacc6429e03c764da5d3c3, type: 3}
+--- !u!4 &8229290296775734915 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4403617414762004248, guid: b381e559dcfacc6429e03c764da5d3c3, type: 3}
+  m_PrefabInstance: {fileID: 8229290296775734914}
+  m_PrefabAsset: {fileID: 0}

@@ -5,26 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class ButtonController : MonoBehaviour
 {
+    public string EscenaNombre;
 
-    public void EscenaP2()
+    public void nextScene(string EscenaNombre)
     {
-        SceneManager.LoadScene("Practica2");
-       
-    }
-
-    public void EscenaP3Cilindro()
-    {
-        SceneManager.LoadScene("Practica3-Cilindro");
-    }
-
-    public void EscenaP3Esfera()
-    {
-        SceneManager.LoadScene("Practica3-Esfera");
-    }
-
-    public void EscenaP3Skybox()
-    {
-        SceneManager.LoadScene("Practica3-Skybox");
+        SceneManager.LoadScene(EscenaNombre);
     }
 
 }

@@ -3,7 +3,12 @@ guid: a66f2b69ad8bca6438867502143c794e
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cilindro Panorama
+    second: {fileID: 2100000, guid: 325b93ba185ef394aadfb5bff8e410c0, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
