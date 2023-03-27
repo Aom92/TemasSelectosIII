@@ -282,12 +282,12 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1429060278080916372, guid: 5fcae79c95c593a4286817e1f34607ae, type: 3}
       propertyPath: m_Type
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1429060278080916372, guid: 5fcae79c95c593a4286817e1f34607ae, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+      objectReference: {fileID: 21300000, guid: 6cef9a83c08168d4c91b479bbc653e8b, type: 3}
     - target: {fileID: 1429060278080916373, guid: 5fcae79c95c593a4286817e1f34607ae, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -415,6 +415,10 @@ PrefabInstance:
     - target: {fileID: 1429060278211161764, guid: 5fcae79c95c593a4286817e1f34607ae, type: 3}
       propertyPath: m_Name
       value: SceneControlCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 1429060278211161766, guid: 5fcae79c95c593a4286817e1f34607ae, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5fcae79c95c593a4286817e1f34607ae, type: 3}
